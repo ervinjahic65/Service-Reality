@@ -1380,7 +1380,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
     cursor: pointer;
 }
 .video-placeholder-normal{
-   background-image: url("https://cdn-cookieyes.com/assets/images/cky-placeholder.svg");
+   background-image: url("./cky-placeholder.svg");
     background-size: 80px;
     background-position: center;
     background-repeat: no-repeat;
@@ -18905,7 +18905,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
    src:url(./pro-fa-v4compatibility.woff2) format("woff2"),url(./pro-fa-v4compatibility.ttf) format("truetype");
    unicode-range:u+f041,u+f047,u+f065-f066,u+f07d-f07e,u+f080,u+f08b,u+f08e,u+f090,u+f09a,u+f0ac,u+f0ae,u+f0b2,u+f0d0,u+f0d6,u+f0e4,u+f0ec,u+f10a-f10b,u+f123,u+f13e,u+f148-f149,u+f14c,u+f156,u+f15e,u+f160-f161,u+f163,u+f175-f178,u+f195,u+f1f8,u+f219,u+f27a
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome - (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-font-duotone-regular:normal 400 1em/1 "Font Awesome 6 Duotone"
 }
@@ -19166,7 +19166,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-duotone.fa-regular.fa-stack-1x,.fa-duotone.fa-regular.fa-stack-2x,.fadr.fa-stack-1x,.fadr.fa-stack-2x{
    position:absolute
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-font-duotone-light:normal 300 1em/1 "Font Awesome 6 Duotone"
 }
@@ -19427,7 +19427,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-duotone.fa-light.fa-stack-1x,.fa-duotone.fa-light.fa-stack-2x,.fadl.fa-stack-1x,.fadl.fa-stack-2x{
    position:absolute
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-style-family-duotone:"Font Awesome 6 Duotone";
    --fa-font-duotone-thin:normal 100 1em/1 "Font Awesome 6 Duotone"
@@ -19688,7 +19688,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-duotone.fa-thin.fa-stack-1x,.fa-duotone.fa-thin.fa-stack-2x,.fadt.fa-stack-1x,.fadt.fa-stack-2x{
    position:absolute
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome - (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-font-sharp-solid:normal 900 1em/1 "Font Awesome 6 Sharp"
 }
@@ -19878,7 +19878,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-solid,.fass{
    font-weight:900
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-font-sharp-regular:normal 400 1em/1 "Font Awesome 6 Sharp"
 }
@@ -20068,7 +20068,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-regular,.fasr{
    font-weight:400
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-font-sharp-light:normal 300 1em/1 "Font Awesome 6 Sharp"
 }
@@ -20258,7 +20258,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-light,.fasl{
    font-weight:300
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-style-family-sharp:"Font Awesome 6 Sharp";
    --fa-font-sharp-thin:normal 100 1em/1 "Font Awesome 6 Sharp"
@@ -20449,7 +20449,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-thin,.fast{
    font-weight:100
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-font-sharp-duotone-solid:normal 900 1em/1 "Font Awesome 6 Sharp Duotone"
 }
@@ -20710,7 +20710,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-sharp-duotone.fa-solid.fa-stack-1x,.fa-sharp-duotone.fa-solid.fa-stack-2x,.fa-sharp-duotone.fa-stack-1x,.fa-sharp-duotone.fa-stack-2x,.fasds.fa-stack-1x,.fasds.fa-stack-2x{
    position:absolute
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-font-sharp-duotone-regular:normal 400 1em/1 "Font Awesome 6 Sharp Duotone"
 }
@@ -20971,7 +20971,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-sharp-duotone.fa-regular.fa-stack-1x,.fa-sharp-duotone.fa-regular.fa-stack-2x,.fasdr.fa-stack-1x,.fasdr.fa-stack-2x{
    position:absolute
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-font-sharp-duotone-light:normal 300 1em/1 "Font Awesome 6 Sharp Duotone"
 }
@@ -21232,7 +21232,7 @@ button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:no
 .fa-sharp-duotone.fa-light.fa-stack-1x,.fa-sharp-duotone.fa-light.fa-stack-2x,.fasdl.fa-stack-1x,.fasdl.fa-stack-2x{
    position:absolute
 }
-/*! * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license (Commercial License) * Copyright 2024 Fonticons, Inc. */
+/*! * Font Awesome Pro 6.7.2 by @fontawesome -  (Commercial License) * Copyright 2024 Fonticons, Inc. */
 :host,:root{
    --fa-style-family-sharp-duotone:"Font Awesome 6 Sharp Duotone";
    --fa-font-sharp-duotone-thin:normal 100 1em/1 "Font Awesome 6 Sharp Duotone"
