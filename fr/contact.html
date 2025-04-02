@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactez-nous</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+    </style>
+  </head>
+  <body class="antialiased text-gray-800">
+    <header class="bg-[#00839f] text-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+          <a href="index.html" class="flex items-center">
+            <img src="files/logo.png" alt="Logo" class="h-14 w-auto" />
+          </a>
+          <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+              <li>
+                <a href="index.html" class="hover:underline">Accueil</a>
+              </li>
+              <li>
+                <a href="about.html" class="hover:underline">À propos de nous</a>
+              </li>
+              <li>
+                <a href="contact.html" class="hover:underline">Contactez-nous</a>
+              </li>
+              <li>
+                <a href="privacy.html" class="hover:underline">Politique de confidentialité</a>
+              </li>
+              <li>
+                <a href="terms.html" class="hover:underline">Conditions générales</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="md:hidden">
+            <button
+              id="mobile-menu-button"
+              class="focus:outline-none"
+              aria-label="Bouton de menu de navigation mobile"
+            >
+              <svg
+                class="h-8 w-8"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <nav id="mobile-menu" class="md:hidden hidden bg-[#00839f] px-4 pb-4">
+        <ul class="space-y-2">
+          <li>
+            <a href="index.html" class="block hover:underline">Accueil</a>
+          </li>
+          <li>
+            <a href="about.html" class="block hover:underline">À propos de nous</a>
+          </li>
+          <li>
+            <a href="contact.html" class="block hover:underline">Contactez-nous</a>
+          </li>
+          <li>
+            <a href="privacy.html" class="block hover:underline">Politique de confidentialité</a>
+          </li>
+          <li>
+            <a href="terms.html" class="block hover:underline">Conditions générales</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="py-8 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold mb-6">Contactez-nous</h1>
+        <p class="mb-6">
+          Nous aimerions avoir de vos nouvelles ! Veuillez remplir le formulaire ci-dessous avec vos questions ou commentaires et nous vous répondrons dès que possible.
+        </p>
+
+        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+          <form id="form">
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                Nom
+              </label>
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Votre nom"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                E-mail
+              </label>
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="email"
+                name="email"
+                type="email"
+                placeholder="vous@exemple.com"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="subject">
+                Sujet
+              </label>
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="subject"
+                name="subject"
+                type="text"
+                placeholder="Sujet"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                Message
+              </label>
+              <textarea
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Votre message ici..."
+                required
+              ></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+              <button
+                class="bg-[#00839f] hover:bg-[#006d85] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="submit"
+              >
+                Envoyer le message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-[#00839f] text-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="mb-4">
+          <p>
+            <strong>Numéro d'entreprise</strong> - 00943935<br />
+            <strong>Adresse</strong> - Lime St, Londres EC3M 7HR, Royaume-Uni<br />
+            <strong>Numéro de téléphone</strong> - 01632 960189
+          </p>
+        </div>
+        <div class="border-t border-white pt-4 text-sm">
+          <p>&copy; 2025 Service Reality. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+      btn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+    <script>
+        document.getElementById("form").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            document.getElementById("form").innerHTML = '<img src="files/loading.gif" style="" width="80">';
+
+            setTimeout(() => {
+                document.getElementById("form").innerHTML = '<p style="font-size: 24px; color:black; font-weight: 700;">Merci de votre inscription. Un représentant vous contactera sous peu.</p>';
+            }, 2000);
+        });
+    </script>
+  </body>
+</html>
