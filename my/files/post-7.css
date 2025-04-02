@@ -1,0 +1,65 @@
+.elementor-kit-7{--e-global-color-primary:#0B1848;--e-global-color-secondary:#464154;--e-global-color-text:#909090;--e-global-color-accent:#FF9381;--e-global-color-8b0a9a5:#F0F4FD;--e-global-color-5b8db92:#F9FBFE;--e-global-color-33ee4ce:#FFCE4C;--e-global-color-8c11df0:#FFFFFF;--e-global-color-25d38cd:#ECEEF0;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-a6b060a-font-family:"Georgia";--e-global-typography-a6b060a-font-size:32px;--e-global-typography-a6b060a-font-weight:700;--e-global-typography-a6b060a-line-height:1.3em;color:#909090;font-family:"Poppins", Sans-serif;font-size:16px;font-weight:400;line-height:1.5em;}.elementor-kit-7 button,.elementor-kit-7 input[type="button"],.elementor-kit-7 input[type="submit"],.elementor-kit-7 .elementor-button{background-color:var( --e-global-color-primary );font-size:14px;font-weight:600;text-decoration:none;color:var( --e-global-color-8c11df0 );border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-primary );border-radius:0px 0px 0px 0px;padding:20px 30px 20px 30px;}.elementor-kit-7 button:hover,.elementor-kit-7 button:focus,.elementor-kit-7 input[type="button"]:hover,.elementor-kit-7 input[type="button"]:focus,.elementor-kit-7 input[type="submit"]:hover,.elementor-kit-7 input[type="submit"]:focus,.elementor-kit-7 .elementor-button:hover,.elementor-kit-7 .elementor-button:focus{background-color:var( --e-global-color-primary );color:var( --e-global-color-8c11df0 );}.elementor-kit-7 e-page-transition{background-color:#FFBC7D;}.elementor-kit-7 a{color:var( --e-global-color-primary );text-decoration:underline;}.elementor-kit-7 h1{color:var( --e-global-color-primary );font-family:"Georgia", Sans-serif;font-size:50px;font-weight:700;line-height:1.2em;}.elementor-kit-7 h2{color:var( --e-global-color-primary );font-family:"Georgia", Sans-serif;font-size:32px;font-weight:700;line-height:1.3em;}.elementor-kit-7 h3{color:var( --e-global-color-primary );font-size:18px;font-weight:700;text-transform:uppercase;line-height:1.5em;letter-spacing:0.05em;}.elementor-kit-7 h4{color:var( --e-global-color-primary );font-size:16px;font-weight:600;line-height:1.5em;}.elementor-kit-7 h5{color:var( --e-global-color-primary );font-family:"Georgia", Sans-serif;font-size:18px;font-weight:700;line-height:1.4em;}.elementor-kit-7 label{color:var( --e-global-color-primary );font-weight:500;}.elementor-kit-7 input:not([type="button"]):not([type="submit"]),.elementor-kit-7 textarea,.elementor-kit-7 .elementor-field-textual{font-size:16px;color:#515151;background-color:#FFFFFF;box-shadow:0px 0px 15px 0px rgba(0, 0, 0, 0.05);border-style:solid;border-width:1px 1px 1px 1px;border-color:#ECEEF0;border-radius:0px 0px 0px 0px;padding:10px 15px 10px 15px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1118px;}.e-con{--container-max-width:1118px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-kit-7 h1{font-size:45px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-7{--e-global-typography-a6b060a-font-size:25px;font-size:14px;}.elementor-kit-7 h1{font-size:34px;}.elementor-kit-7 h2{font-size:25px;}.elementor-kit-7 h3{line-height:1.2em;}.elementor-kit-7 input:not([type="button"]):not([type="submit"]),.elementor-kit-7 textarea,.elementor-kit-7 .elementor-field-textual{font-size:14px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */html, body {
+    position: relative;
+    overflow-x: hidden;
+}
+h1 b, h2 b {
+    color: var(--e-global-color-accent);
+}
+/* Typography */
+ul, ol {
+    padding-left: 22px;
+}
+/* Fancy Form Styles */
+.fancy-form input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+}
+.fancy-form .elementor-field-option {
+    
+}
+.fancy-form .elementor-field-option label {
+    padding-left: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    display: block !important;
+    line-height: 1.3;
+}
+.fancy-form .elementor-field-option label:before {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Pro';
+    display: block;
+    width: 25px;
+    line-height: 25px;
+    top: -3px;
+    left: 0;
+    text-align: center;
+    border: 1px solid #eee;
+    position: absolute;
+    color: #FFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: color 300ms;
+}
+.fancy-form input[type=checkbox]:checked + label {
+    font-weight: 500;
+}
+.fancy-form input[type=checkbox]:checked + label:before {
+    color: var(--e-global-color-primary);
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+/* Form confirmation message*/
+.fancy-form .elementor-message:before {
+    display: none;
+}
+.fancy-form .elementor-message {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Georgia', sans-serif;    
+}
+
+.grecaptcha-badge {
+    transition: opacity 300ms ease-in-out, right 300ms ease-in-out !important;
+    
+    opacity: 0;
+}/* End custom CSS */
