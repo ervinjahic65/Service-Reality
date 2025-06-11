@@ -1,1 +1,1 @@
-Check on this link https://service-reality.netlify.app/
+Check on this link https://servicereality.netlify.app/
